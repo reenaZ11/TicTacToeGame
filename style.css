@@ -7,6 +7,9 @@ body{
 }
 .game-name{
     text-align: center;
+    padding: 0 5vh;
+    font-size: 8vmin;
+    color: darkolivegreen;
 }
 .box {
     background-color: #b5bea3;
@@ -26,5 +29,30 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
+
+#newBtn{
+    background-color: #90634d;
+    color: #FFF8E8;
+    font-size: 3vmin;
+    border-radius: 3vh;
+    border: none;
+    box-shadow: 0 0 0.5rem #8e8e8e;
+    padding: 2vh 4vh;
+    margin-bottom: 6vh;
+}
+#winner{
+    display: none;
+    margin: 5vh ;
+    font-size: 8vmin;
+    color: #427152;
+    text-align: center;
+}
+#content{
+    display: none;
+    font-size: 5vmin;
+    color: #6f7d74;
+    text-align: center;
+    margin: 0 2vh 62vh 2vh;
 }
 
